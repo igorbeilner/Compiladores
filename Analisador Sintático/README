@@ -1,0 +1,21 @@
+Universidade Federal da Fronteira Sul
+Ciência da Computação, campus Chapecó
+Disciplina de Construção de Compiladores
+Prof. Dr. Braulio Adriano de Mello
+
+Alunos:
+Eliton Traverssini
+Igor Beilner
+
+Implementação de um Analisador Sintático
+
+========================================================
+
+Compilar:
+	gcc *.c -lm -o a.out
+
+Executar:
+	./a.out data/parser.csv data/<codigo_teste> > <caminho para/saida.txt>
+
+	exemplo: ./a.out data/parser.csv data/f > saida.txt
+

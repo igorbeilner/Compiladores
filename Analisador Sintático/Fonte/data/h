@@ -1,0 +1,8 @@
+MAIN
+	VAR i = 10;
+	IF i = 2 THEN
+		i = 5;
+	ELSE
+		i = 20;	
+	END
+RETURN 0;

@@ -1,0 +1,4 @@
+MAIN
+	VAR i = 10;
+	i = 50;
+RETURN 0;

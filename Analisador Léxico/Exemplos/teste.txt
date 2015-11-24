@@ -1,0 +1,13 @@
+MAIN
+	VAR a;
+	WHILE (a < 10) THEN
+		IF (a = b) THEN
+			BREAK
+		ELSE
+			igor = 2+2;
+			beilner = a-6;
+		END
+	END
+
+RETURN
+

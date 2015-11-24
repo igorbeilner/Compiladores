@@ -1,0 +1,4 @@
+MAIN
+	IF i=j THEN
+	END
+RETURN 0;

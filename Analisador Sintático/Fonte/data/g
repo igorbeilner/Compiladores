@@ -1,0 +1,17 @@
+MAIN
+	VAR i;
+	VAR j = 90;	
+	WHILE i = i THEN
+		WHILE i = j THEN
+			WHILE 8 = j THEN
+				i = 90;
+				j = 123;
+				IF i = j THEN
+					BREAK
+				ELSE
+					i = 2;
+				END
+			END
+		END
+	END
+RETURN 0;

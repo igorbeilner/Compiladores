@@ -1,0 +1,25 @@
+﻿"Name"              = 'Hipotetica'
+"Author"            = 'Igor Beilner'
+"Version"           = '1.0'
+"About"             = 'descrição'
+            
+"Start Symbol"      = <q0>
+                 
+<q0> ::= M <q1> R <q2> G
+      
+<q1> ::= V <q3> G <q1> | V <q3> Q <q4> G <q1> | <q3> Q <q4> G <q1> | I <q5> T <q6> F <q1> | W <q5> T <q7> F <q1> | <>
+      
+<q2> ::= K <q2> | K
+      
+<q3> ::= J <q3> | J
+      
+<q4> ::= <q4> A <q8> | <q4> S <q8> | <q4> X <q8> | <q4> D <q8> | L <q4> P | <q8>
+      
+<q5> ::= <q4> Q <q4> | <q4> H <q4> | <q4> C <q4> | <q4> N <q4> | <q4>
+      
+<q6> ::= <q7> | <q7> E <q7>
+      
+<q7> ::= <q1> | B
+      
+<q8> ::= <q2> | <q3>
+

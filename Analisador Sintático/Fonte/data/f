@@ -1,0 +1,15 @@
+MAIN
+	VAR i = 10;
+	WHILE i > 0 THEN
+		i = i - 1;
+		IF i = 2 THEN
+			BREAK
+		END
+	END
+	IF i ! 2 THEN
+		i = 40;
+	ELSE
+		i = 20;
+	END
+RETURN 0;
+

@@ -1,0 +1,6 @@
+MAIN
+	VAR i = 10;
+	WHILE i > 0 THEN
+		i = i - 1;
+	END
+RETURN 0;

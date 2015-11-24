@@ -1,0 +1,3 @@
+MAIN
+	VAR i;
+RETURN 0;
